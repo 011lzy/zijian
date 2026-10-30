@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#F7F7F4">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="字间">
+<title>字间 · 字卡传讯</title>
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="assets/icon-180.png">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="stage">
+  <aside class="stage-note">
+    <div class="stage-mark">字间</div>
+    <p class="stage-sub">一字一句，都留在这里。</p>
+    <div class="stage-rule"></div>
+    <p class="stage-desc">一个纯本地的字卡传讯站。回复不是 AI，是你自己写下的字卡，按概率被抽出来。</p>
+    <ul class="stage-points">
+      <li>字卡驱动 · 无需联网</li>
+      <li>数据只存在这台设备</li>
+      <li>定期导出备份</li>
+    </ul>
+    <div class="stage-foot">虚构娱乐 · 请勿替代真实关系</div>
+  </aside>
+
+  <main class="phone" id="phone">
+    <div id="app" class="app"></div>
+    <nav id="tabbar" class="tabbar" hidden></nav>
+    <div id="sheets" class="sheets"></div>
+  </main>
+</div>
+
+<script src="assets/seed.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
